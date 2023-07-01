@@ -1,6 +1,4 @@
-//DESCRIPTION: THIS IS FOR THE MACHINE LEARNING PAGE THERE'S AN ACCCORDION WHERE WE WILL DICUSS
-//WHAT'S GOING ON 
-//- RENDERED BY MACHINE.JS
+
 import {Accordion, Card, Button} from 'react-bootstrap';
 import styled from 'styled-components';
 import {Fragment} from 'react';
