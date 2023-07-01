@@ -1,3 +1,22 @@
+# MY NOTES:
+
+This code is a powerful demonstration of state-of-the-art web development technologies, showcasing a robust and interactive application. It's built with React, a leading JavaScript library for building user interfaces, and Bootstrap, the go-to toolkit for creating responsive and mobile-first websites.
+
+The code includes a variety of components such as `LoginWrapper` and `CoverLettersWrapper`, which handle user authentication and display cover letters, respectively. It uses the `react-pdf` library to manage PDF files, demonstrating the application's capability to work with complex document formats.
+
+The application harnesses the power of `axios`, a promise-based HTTP client for the browser and Node.js. This allows the application to make asynchronous requests to servers, enabling it to fetch, display, and interact with data from various sources seamlessly.
+
+The code also incorporates `AceEditor`, a high-performance code editor for the web. The Application has a feature that allows users to write or edit code directly in the browser, a powerful feature for any web-based development environment.
+
+The use of `AOS`, a small library to animate elements on your page as you scroll, indicates that this application prioritizes user experience and interactivity. 
+
+Finally, the application uses `ReactMarkdown`, a markdown component for React. This means the application can take text input in the markdown format and render it as proper HTML, providing a user-friendly way to format text.
+
+In summary, this code represents a highly interactive, feature-rich web application that leverages some of the best libraries and tools available in modern web development. It's a testament to what can be achieved with the right tools and a clear vision.
+
+PLEASE SEE THE ACCOMPANYING PYTHON APP FOR AUTHENTICATION 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
