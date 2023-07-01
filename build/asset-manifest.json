@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.13ac2e13.css",
+    "main.js": "/static/js/main.737052a3.js",
+    "static/js/787.6a089f26.chunk.js": "/static/js/787.6a089f26.chunk.js",
+    "static/media/sands122921.jpeg": "/static/media/sands122921.2f85492259b2b2cdd232.jpeg",
+    "static/media/lovecats.giff": "/static/media/lovecats.08274052233a53d0dffe.giff",
+    "static/media/lion.jpg": "/static/media/lion.e998d2c463fecd21db38.jpg",
+    "static/media/cha.pdf": "/static/media/cha.fcae3e4e1c8daba1b580.pdf",
+    "static/media/testMathArt1.pdf": "/static/media/testMathArt1.fc3244442a9992834144.pdf",
+    "static/media/bone.pdf": "/static/media/bone.de0f0fdd63920747a523.pdf",
+    "static/media/testjsArt1.pdf": "/static/media/testjsArt1.2b87641af289f220b2f8.pdf",
+    "static/media/joseM_resume_share.pdf": "/static/media/joseM_resume_share.36688990bc1a0f191231.pdf",
+    "static/media/test.md": "/static/media/test.cb561c318b0b997f9f3c.md",
+    "index.html": "/index.html",
+    "main.13ac2e13.css.map": "/static/css/main.13ac2e13.css.map",
+    "main.737052a3.js.map": "/static/js/main.737052a3.js.map",
+    "787.6a089f26.chunk.js.map": "/static/js/787.6a089f26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ac2e13.css",
+    "static/js/main.737052a3.js"
+  ]
+}
