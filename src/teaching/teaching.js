@@ -184,57 +184,7 @@ const useIntersectionObserver = (setActiveId) => {
  */
 const TableOfContents = () => {
 
-//const myBody={
-//  font-family: sans-serif,
-//  line-height: 1.6,
-//  background-color: #1F2233,
-//  color: #D8DEE9
-//}
-//	
-//
-//const myContainer={
-//  max-width: "1050px";
-//  margin: "0 auto";
-//  display: flex;
-//}
-//
-//
-//const myNav={
-//  width: 220px,
-//  min-width: 220px,
-//  padding: 16px,
-//  margin: 8px,
-//  align-self: flex-start,
-//  position: -webkit-sticky, /* Safari */
-//  position: sticky,
-//  top: 48px,
-//  max-height: calc(100vh - 70px),
-//  overflow: auto,
-//}
-//
-//@media screen and (max-width: 900px) {
-//  nav {
-//    display: none,
-//  }
-//}
-//const myA={
-//  color: #A6ACC9,
-//  textDecoration: "none"
-//}
-//
-//li.active > a {
-//  color: white,
-//}
-//
-//li > a:hover {
-//  color: white,
-//}
-//
-///*  Gives a little bit of buffer when header isnavigated to */
-//const myhtwohthree{
-//paddingTop: 16px,
-//    marginTop: -16px,
-//} 
+
   const [activeId, setActiveId] = React.useState();
 	//import the custom hook and set it
   const { nestedHeadings } = useHeadingsData();
