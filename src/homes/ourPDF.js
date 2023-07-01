@@ -1,24 +1,12 @@
-//ALL OF THIS IS FROM:
-//https://codesandbox.io/s/displaying-pdf-using-react-forked-uqefw?file=/src/sampleBase64pdf.js
+
 
 import React from 'react';
 import { Document, Page, pdfjs } from "react-pdf";
-//import SinglePagePDFViewer from "./components/pdf/single-page";
-//import AllPagesPDFViewer from "./components/pdf/all-pages";
-//import { sampleBase64pdf } from "./sampleBase64pdf";
-/* This is required only if the project file is located 
-inside the app. Otherwise you can use the external link of the pdf file*/
-//import samplePDF from "./sample.pdf";
 import bn from "./pdf/bone.pdf";
 import cha from "./pdf/cha.pdf";
-//import scheme from "./pdf/scheme.pdf"
 import AllPages from './pdf/all_pages';
 import SinglePage from './pdf/single_page';
-
-//import {useLocation} from 'react-router-dom';
-
 import '../You_styles.css';
-
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -95,7 +83,6 @@ button {
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export function YouPDF() {
-//        const location = useLocation();
   return (
 	  <Styles>
     <div >
@@ -112,23 +99,6 @@ export function YouPDF() {
 
 
       <hr />
-      {/*
-      <h4>A Sample from my Dissertation Defence </h4>
-      <div className="all-page-container">
-        <AllPages pdf={bOnePage} />
-      </div>
-
-      <h4>All Pages</h4>
-      <div className="all-page-container">
-        <AllPages pdf={scheme} />
-      </div>
-      */}
-
-
-      {/* YOU CAN DO MULTI-LINE COMMENTS INDEED
-      <h4>Base 64 Single Page</h4>
-      <SinglePagePDFViewer pdf={sampleBase64pdf} />
-      */}
 
       <hr />
     </div>
